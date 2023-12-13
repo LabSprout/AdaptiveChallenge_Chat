@@ -1,0 +1,8 @@
+add_user adam
+add_user eve
+add_user adam
+talk adam eve hi
+talk eve adam I hate you
+talk adam gogami nyugaku
+show_log adam eve
+show_log adam gogami
