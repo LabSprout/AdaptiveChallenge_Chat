@@ -6,3 +6,40 @@ talk eve adam I hate you
 talk adam gogami nyugaku
 show_log adam eve
 show_log adam gogami
+
+create_room gods hoge <- OUTPUT: ERROR: no user ID
+
+add_user hoge
+create_room gods hoge
+add_user adam
+talk adam gods hi
+show_log adam gods
+
+add_user hoge
+create_room gods hoge 
+add_user adam
+talk adam gods hi
+
+add_user hoge
+add_user adam
+create_room gods hoge adam
+talk adam gods hi
+show_log gods
+
+add_user hoge D
+add_credit hoge 100
+
+add_user hoge J
+add_credit hoge 100
+
+add_user hoge D
+add_credit hoge 100
+show_credit hoge
+
+add_user hoge D
+add_user adam J
+talk hoge adam hi
+add_credit hoge 100
+talk hoge adam hi
+show_credit hoge
+show_credit adam
